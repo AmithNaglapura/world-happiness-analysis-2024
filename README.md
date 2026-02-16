@@ -54,3 +54,19 @@ Why are some nations consistently "happier" than others? This project dives deep
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/AmithNaglapura/world-happiness-analysis-2024.git](https://github.com/AmithNaglapura/world-happiness-analysis-2024.git)
+
+---
+
+### 📊 Model Performance & Insights
+I utilized a **Linear Regression** model to predict the happiness "Ladder Score." Here is how the factors stack up:
+
+> [!TIP]
+> **Key Insight:** Economic output (GDP) and Social Support are the most significant predictors of national happiness in the 2024 dataset.
+
+#### 📍 Feature Importance
+| Feature | Impact on Happiness |
+| :--- | :--- |
+| **Log GDP per capita** | ⭐⭐⭐⭐⭐ (High) |
+| **Social Support** | ⭐⭐⭐⭐ (High) |
+| **Healthy Life Expectancy** | ⭐⭐⭐ (Medium) |
+| **Freedom of Choice** | ⭐⭐⭐ (Medium) |

@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=World%20Happiness%20Report&fontSize=50&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=30,20,15&height=200&section=header&text=World%20Happiness%20Report&fontSize=50&animation=fadeIn" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://colab.research.google.com/github/AmithNaglapura/world-happiness-analysis-2024/blob/main/FinalAssignment-v1-3.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+  </a>
 </p>
 
 ## 🌟 Discovering Global Well-being: 2024 Edition
@@ -15,37 +21,36 @@
 ### 📖 The Quest for Happiness
 Why are some nations consistently "happier" than others? This project dives deep into the **2024 World Happiness Report** to decode the DNA of global satisfaction. Using Python, I explore the relationship between economic output, social support, and personal freedom.
 
-> [!IMPORTANT]
-> This project was developed as part of the **IBM Skills Network** Professional Certificate, focusing on **Supervised Machine Learning: Regression**.
-
 ---
 
-### 🛠️ The Tech Stack
+### 🛠️ Tech Stack & Tools
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,jupyter,pandas,sklearn,matplotlib" />
-  </a>
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" />
 </p>
 
 ---
 
-### 📈 Visualizing the Data
-| Feature Analysis | Description |
+### 📈 Project Highlights
+| Analysis Stage | Focus Area |
 | :--- | :--- |
-| 🧬 **Correlation Heatmap** | Uncovering the hidden links between GDP and Social Support. |
-| 📊 **Linear Regression** | Quantifying the impact of "Freedom to make life choices." |
-| 🌍 **Global Ranking** | Comparative analysis of 143 countries. |
+| 🧬 **Data Wrangling** | Cleaning the WHR 2024 dataset for 143 countries. |
+| 📊 **Feature Engineering** | Analyzing Log GDP per capita and Social Support. |
+| 🌍 **Linear Regression** | Modeling the "Ladder Score" to predict happiness levels. |
 
 ---
 
 ### 🎨 Key Findings
-- **Economy Matters:** Log GDP per capita remains the strongest predictor of the Ladder Score.
-- **Social Safety Nets:** Social support is the backbone of high-ranking Nordic countries.
-- **Residuals:** The "Dystopia + residual" factor shows that there is still much to explain beyond raw statistics.
+- **The Nordic Factor:** High social support and freedom scores dominate the top rankings.
+- **Economic Correlation:** A strong linear relationship exists between wealth and reported well-being.
+- **Future Growth:** The project identifies the need for non-linear models like **Random Forest** to capture complex social nuances.
 
 ---
 
-### 🚀 Setup & Execution
-1. **Clone with flair:**
+### 🚀 How to Run
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+   git clone [https://github.com/AmithNaglapura/world-happiness-analysis-2024.git](https://github.com/AmithNaglapura/world-happiness-analysis-2024.git)
